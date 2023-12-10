@@ -4,7 +4,7 @@ const carrouselRouter = express.Router();
 const { S3Client, ListObjectsV2Command, GetObjectCommand } = require('@aws-sdk/client-s3');
 const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
 
-const bucketName = 'pe2-khalidab-s3-bucket';
+const bucketName = 'pe2-khalidaitb-s3-bucket';
 const region = 'us-east-1';
 
 const listPublicFiles = async () => {
